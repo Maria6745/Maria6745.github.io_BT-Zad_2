@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="../Css/style.css">
+    <title>Веб-технологии</title>
+    <nav>
+        <ul class="ulMenu">
+            <li class="liLogo">
+                   <a href="index.html"><img src="../images/logo.jpg"width="50px" height="50px" alt=""></a>
+           </li>
+           <li>
+           <li class="menuElement">
+               <a href="main.html">О себе</a>
+           </li>
+           <li>
+           <li class="menuElement">
+               <a href="resume.html">Резюме</a>
+           </li>
+           <li>
+           <li class="menuElement">
+               <a href="portfolio.html">Портфолио</a>
+           </li>
+           <li>
+           <li class="menuElement">
+               <a href="skill.html">Компетенции</a>
+           </li>
+           <li>
+           <li class="menuElement">
+               <a href="contacts.html">Контакты</a>
+           </li>
+       </ul>
+    </nav>
+</head>
+<body>
+    <header>
+        <h1>Контакты</h1>
+    </header>
+</head>
+<body>
+    <div class="divborder p1" >
+        <p></p>
+        <div>
+            <div>Как Вам удобно получить ответ:</div>
+            <label for="c_mail">
+            <input type="radio" name="com_tion" id="c_mail"> по почте </label>
+            <br>
+            <label for="c_tel">
+            <input type="radio" name="com_tion" id="c_tel"> по телефону
+            </label><br>
+            <label for="c_none">
+            <input type="radio" name="com_tion" id="c_none"> не нужно отвечать
+            </label><br>
+        </div>
+        <p></p>
+        <div>
+            <label for="theme">
+            Укажите тему вопроса
+            </label><br>
+            <select name="theme" id="theme" class="divnew">
+            <option value="work" >работа</option>
+            <option value="cooperation">сотрудничество</option>
+            <option value="personal">личное</option>
+            </select>
+        </div>
+     <p></p>
+        <div>
+            <div> И еще один вопрос?</div>
+            <label for="chb1">
+            <input type="checkbox" name="chb1" id="chb1">может так
+            </label><br>
+            <label for="chb2">
+            <input type="checkbox" name="chb2" id="chb2">или не так
+            </label><br>
+            <label for="chb2">
+            <input type="checkbox" name="chb3" id="chb3">иначе
+            </label><br>
+          </div>
+     <p></p>
+        <div>
+            <div class="flex-row-div">
+            <label for="example">Ваше имя</label>
+            <input class="divnew" type="text"name="example"id="example"size="30"pattern="[A-Z]+"required>
+        </div>
+        <div class="flex-row-div">
+            <label for="email">Адрес почты</label>
+            <input class="divnew" type="email" name="email" id="email">
+        </div>
+        <div class="flex-row-div">
+            <label for="tel">Телефон</label>
+            <input class="divnew" type="tel" name="tel" id="tel">
+        </div>
+        <div>Ваш вопрос:</div>
+        <div>
+            <textarea cols="15"></textarea>
+        </div>
+        </div>
+        <p></p>
+        <form action="" method="get">
+        <input type="submit" value="отправить вопрос" class="divnew margint">
+        </form>
+    </div>
+    <footer>
+            <div>
+                <a href=""><img src="../images/vk.jpg" width="50px" height="50px" alt=""></a>
+                <a href=""><img src="../images/git.jpg" width="50px" height="50px" alt=""></a>
+                <a href=""><img src="../images/ins.jpg" width="50px" height="50px" alt=""></a>
+            </div>
+            <p>Cайт разработан ФИ, Copyright © 2021</p>
+    </footer>
+</body>
+</html>
